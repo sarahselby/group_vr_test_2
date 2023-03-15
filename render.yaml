@@ -1,0 +1,8 @@
+name: my-tcp-app
+env:
+  - key: PORT
+    value: 8080
+build:
+  - dockerfile: Dockerfile
+run:
+  - cmd: npm start
